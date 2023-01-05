@@ -1,0 +1,51 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://dnoneill.github.io/testing/img/derivatives/iiif/test/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "test with colon&#58; test",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": "test with colon&#58; test"
+    }
+  ],
+  "description": "test with colon&#58; test",
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://dnoneill.github.io/testing/canvas/img/derivatives/iiif/test/FMJL4vpVEAcn5EE.json",
+          "@type": "sc:Canvas",
+          "label": "FMJL4vpVEAcn5EE",
+          "thumbnail": "https://dnoneill.github.io/testing/img/derivatives/iiif/test/FMJL4vpVEAcn5EE/full/192,/0/default.jpg",
+          "height": 4096,
+          "width": 3072,
+          "images": [
+            {
+              "@id": "https://dnoneill.github.io/testing/img/derivatives/iiif/test/FMJL4vpVEAcn5EE/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://dnoneill.github.io/testing/img/derivatives/iiif/test/FMJL4vpVEAcn5EE/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 4096,
+                "width": 3072,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://dnoneill.github.io/testing/img/derivatives/iiif/test/FMJL4vpVEAcn5EE",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://dnoneill.github.io/testing/canvas/img/derivatives/iiif/test/FMJL4vpVEAcn5EE.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
