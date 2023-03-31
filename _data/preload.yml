@@ -55,4 +55,4 @@ settings:
   tempuser: notenabled
   viewer: mirador
   widgets: comment-with-purpose, tag, geotagging
-version: '2.5'
+version: '1.0'
